@@ -1,2 +1,2 @@
 #!/bin/bash
-ps aux | grep rspec | grep -v grep | awk '{print "kill -9 " $2}' | bash
+ps aux | grep rspec | grep -v grep | awk '{print "kill -9 " $2}' | bash | echo "boom"
